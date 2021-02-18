@@ -1,0 +1,168 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: url(https://cdn.pixabay.com/photo/2015/06/08/15/11/typewriter-801921_960_720.jpg);
+    background-size: 100%;
+    background-position-y: 30%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+div {
+    position: relative;
+    top: 150px;
+    left: 480px;
+    font-size: 25px;
+    /* border: 1px solid red; */
+}
+
+div#titulo {
+    position: relative;
+    left: 430px;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+div#formulario {
+    left: 450px;
+}
+
+span {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: 2px 2px black;
+}
+
+span#postagem {
+    position: relative;
+    bottom: 50px;
+}
+
+input {
+    margin: 10px;
+}
+
+input#titulo {
+    position: relative;
+    left: 10px;
+    margin-left: 60px;
+    width: 310px;
+    border-color: white;
+    border-radius: 10px;
+    height: 25px;
+    bottom: 5px;
+    font-size: 20px;
+}
+
+textarea#conteudo {
+    width: 310px;
+    height: 120px;
+    margin-left: 10px;
+    resize: none;
+    border-radius: 10px;
+    background-color: white;
+    border-color: white;
+    font-size: 20px;
+}
+
+input#adicionar {
+    width: 160px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: white;
+    border-color: white;
+    top: 100px;
+    margin-left: 160px;
+}
+
+input#adicionar:hover {
+    border-color: aquamarine;   
+    background-color: aquamarine;
+}
+
+input#submit {
+    width: 120px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: white;
+    border-color: white;
+    position: relative;
+    bottom: 60px;
+    left: 330px;
+}
+
+input#submit:hover {
+    border-color: bisque;   
+    background-color: bisque;
+}
+
+/* Page req */
+button#voltar {
+    font-size: 25px;
+    border-radius: 10px;
+    background-color: white;
+    border-color: white;   
+    cursor: grab;
+    position: relative;
+    left: 400px;
+    top: 130px;
+}
+
+button#voltar:hover {
+    border-color: aquamarine;   
+    background-color: aquamarine;
+}
+
+div#lista {
+    position: relative;
+    left: 250px;
+    width: 800px;
+    height: 400px;
+    border-radius: 10px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    background-color: white;
+    display:block;
+}
+
+div#lista p{
+    font-size: 20px;
+    padding-left: 20px;
+    font-style: italic;
+    font-family: Courier;
+    /* border: 1px solid red; */
+    margin: 10px 0px;
+    width: 96%;
+    /* Quebra a linha indepente de qualquer coisa */
+    word-wrap: break-word;
+}
+
+div#lista h5{
+    /* border: 1px solid red; */
+    font-size: 25px;
+    padding-left: 10px;
+    margin: 10px 0px;
+    width: 96%;
+}
+
+div#lista small{
+    font-size: 12px;
+    padding-left: 10px;
+    width: 96%;
+}
+
+button#deletar {
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: white;
+    border-color: white;   
+    cursor: grab;
+}
+
+button#deletar:hover{
+    background-color: red;
+    color: bisque;
+    border-color: white;   
+}

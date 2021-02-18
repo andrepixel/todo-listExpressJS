@@ -1,0 +1,11 @@
+<a href="/"><button id="voltar">Voltar</button></a>
+
+<div id="lista">
+    {{#each posts}}
+        <small>{{createdAt}}</small>
+        <h5>{{titulo}}</h5>
+        <p>{{conteudo}}</p>
+        <a href="/deletar/{{id}}"><button id="deletar">Deletar Postagem</button></a>
+        <hr>
+    {{/each}}
+</div>
