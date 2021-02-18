@@ -1,4 +1,4 @@
-# Todo-list com NodeJS com Express
+# Todo-list com NodeJS e Express
 
 ### Build
 * [NODEJS] (https://nodejs.org/en/download/) 
